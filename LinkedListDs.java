@@ -27,4 +27,17 @@ public class LinkedListDs {
 // Doubly Linked List basically one address for the previous node and a onther address for the next node . 
 // This uses more memory than single linked list
 
+
+    public void useAsStackAndAddToTheStack(String word) {
+        l.push(word);
+    }
+
+    public void useAsStackAndRemoveElement() {
+        l.pop();
+    }
+
+    public void useAsQueueAndAddElement() {
+        
+    }
+
 }
