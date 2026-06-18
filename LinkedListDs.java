@@ -1,6 +1,10 @@
 import java.util.LinkedList;
 
 public class LinkedListDs {
+// Linked lists stores nodes in 2 parts (data + address) . 
+
+// Each node stores data and a reference to the next node.
+
 // Linked list is easy to adjest not like arrays .In arrays inserting and deleting elements is Hard but in linked lists its easy . 
 
 // For every element in the linked list there is a reference(Address) for the next element . 
@@ -36,8 +40,31 @@ public class LinkedListDs {
         l.pop();
     }
 
-    public void useAsQueueAndAddElement() {
-        
+    public void useAsQueueAndAddElement(String word) {
+        l.offer(word);
     }
 
+    public void useAsQueueAndRemoveElement() {
+        l.poll();
+    }
+
+
+    // Also lined list has addFirst and addLast method to add element at the beginning and end of the list .
+    // Also has removeFirst and removeLast method to remove element at the beginning and end of the list .
+
+    public void addFirst(String word) {
+        l.addFirst(word);
+    }
+
+    public void addLast(String word) {
+        l.addLast(word);
+    }
+
+    public void removeFirst() {
+        l.removeFirst();
+    }
+
+    public void removeLast() {
+        l.removeLast();
+    }
 }
