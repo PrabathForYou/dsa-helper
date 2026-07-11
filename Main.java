@@ -19,5 +19,11 @@ public class Main {
         //     pq.addToQueue(i);
         // }
         // pq.readTheQueue();
+
+
+        // int[] array = {1,5,63,2,8,10};
+        // int findValue = 123;
+        // LinearSearchDs ls = new LinearSearchDs();
+        // System.out.println(ls.linearSearch(array, findValue));
     }
 }
