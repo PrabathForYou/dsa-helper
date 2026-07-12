@@ -1,4 +1,5 @@
 public class LinearSearchDs {
+    // O(n) time complexity class searching algorithm
     // Iterate collection data elements one by one . 
 
     // Advantages  :  Good for small and mediam datasets 

@@ -25,5 +25,8 @@ public class Main {
         // int findValue = 123;
         // LinearSearchDs ls = new LinearSearchDs();
         // System.out.println(ls.linearSearch(array, findValue));
+
+        BinarySearchDs bs = new BinarySearchDs();
+        System.out.println("Here is the location " + bs.initaiteArrayAndbinarySearch(1000000));
     }
 }
