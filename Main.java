@@ -26,7 +26,11 @@ public class Main {
         // LinearSearchDs ls = new LinearSearchDs();
         // System.out.println(ls.linearSearch(array, findValue));
 
-        BinarySearchDs bs = new BinarySearchDs();
-        System.out.println("Here is the location " + bs.initaiteArrayAndbinarySearch(1000000));
+        // BinarySearchDs bs = new BinarySearchDs();
+        // System.out.println("Here is the location " + bs.initaiteArrayAndbinarySearch(1000000));
+
+        int[] arr = {4,2,6,7,9,3,1};
+        BubbleSort bubbleS = new BubbleSort();
+        bubbleS.sort(arr);
     }
 }
